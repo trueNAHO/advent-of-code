@@ -1,0 +1,29 @@
+= Advent of Code
+:aoc: link:https://adventofcode.com[Advent of Code]
+
+== About
+
+https://github.com/trueNAHO[NAHO]'s {aoc} solutions.
+
+Each {aoc} exercise is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
+
+== Usage
+
+To build all {aoc} exercises with
+https://nixos.wiki/wiki/Nix_Installation_Guide[Nix] at
+`result-bin/bin/<YEAR>_<DAY>_<PART>`, run:
+
+[,bash]
+----
+nix build
+----
+
+== Contributing
+
+To contribute, please review link:docs/contributing.adoc[our contribution
+guidelines].
+
+== License
+
+This project is licensed under link:LICENSE[GNU GENERAL PUBLIC LICENSE Version
+3].
