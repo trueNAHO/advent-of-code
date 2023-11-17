@@ -10,12 +10,12 @@ Each {aoc} solution is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
 == Usage
 
 To build all {aoc} solutions with
-https://nixos.wiki/wiki/Nix_Installation_Guide[Nix] at
-`result-bin/bin/<YEAR>_<DAY>_<PART>`, run:
+https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[Cargo]
+at `target/debug/<YEAR>_<DAY>_<PART>`, run:
 
 [,bash]
 ----
-nix build
+cargo build
 ----
 
 == Contributing
