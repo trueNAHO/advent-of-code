@@ -42,7 +42,7 @@
 
         devShells.default = pkgs.mkShell {
           inherit (self.checks.${system}.preCommitHooks) shellHook;
-          packages = [pkgs.rustup];
+          packages = with pkgs; [cargo-watch rustup];
         };
       }
     );
