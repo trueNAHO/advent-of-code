@@ -5,11 +5,11 @@
 
 https://github.com/trueNAHO[NAHO]'s {aoc} solutions.
 
-Each {aoc} exercise is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
+Each {aoc} solution is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
 
 == Usage
 
-To build all {aoc} exercises with
+To build all {aoc} solutions with
 https://nixos.wiki/wiki/Nix_Installation_Guide[Nix] at
 `result-bin/bin/<YEAR>_<DAY>_<PART>`, run:
 
