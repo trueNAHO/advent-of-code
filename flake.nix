@@ -12,7 +12,7 @@
         nixpkgs.follows = "nixpkgs";
       };
 
-      url = "github:cachix/pre-commit-hooks.nix";
+      url = "github:trueNAHO/pre-commit-hooks.nix/fix-typos-force-exclude";
     };
   };
 
@@ -36,7 +36,11 @@
             yamllint.enable = true;
           };
 
-          settings.alejandra.verbosity = "quiet";
+          settings = {
+            alejandra.verbosity = "quiet";
+            typos.exclude = "*.txt";
+          };
+
           src = ./.;
         };
 
