@@ -34,3 +34,11 @@ path = "src/bin/2022/3/2/src/main.rs"
 [[bin]]
 name = "2022_4_1"
 path = "src/bin/2022/4/1/src/main.rs"
+
+[[bin]]
+name = "2022_5_1"
+path = "src/bin/2022/5/1/src/main.rs"
+
+[[bin]]
+name = "2022_5_2"
+path = "src/bin/2022/5/2/src/main.rs"
