@@ -10,8 +10,8 @@ Each {aoc} solution is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
 == Usage
 
 To build all {aoc} solutions with
-https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[Cargo]
-at `target/debug/<YEAR>_<DAY>_<PART>`, run:
+https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[
+`cargo`] at `target/debug/<YEAR>_<DAY>_<PART>`, run:
 
 [,bash]
 ----
