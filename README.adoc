@@ -1,5 +1,6 @@
 = Advent of Code
 :aoc: link:https://adventofcode.com[Advent of Code]
+:cargo: link:https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[`cargo`]
 
 == About
 
@@ -9,13 +10,23 @@ Each {aoc} solution is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
 
 == Usage
 
-To build all {aoc} solutions with
-https://doc.rust-lang.org/stable/cargo/getting-started/installation.html[
-`cargo`] at `target/debug/<YEAR>_<DAY>_<PART>`, run:
+=== Run
+
+To build all {aoc} solutions with {cargo} at `target/debug/<YEAR>_<DAY>_<PART>`,
+run:
 
 [,bash]
 ----
 cargo build
+----
+
+=== Documentation
+
+To open the documentation with {cargo}, run:
+
+[,bash]
+----
+cargo doc --open
 ----
 
 == Contributing
