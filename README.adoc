@@ -15,7 +15,7 @@ Each {aoc} solution is located at `src/bin/<YEAR>/<DAY>/<PART>/src/main.rs`.
 To build all {aoc} solutions with {cargo} at `target/debug/<YEAR>_<DAY>_<PART>`,
 run:
 
-[,bash]
+[bash]
 ----
 cargo build
 ----
@@ -24,7 +24,7 @@ cargo build
 
 To open the documentation with {cargo}, run:
 
-[,bash]
+[bash]
 ----
 cargo doc --open
 ----
